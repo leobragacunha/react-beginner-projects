@@ -1,0 +1,39 @@
+.header {
+  &__title {
+    text-align: center;
+    font-size: 3rem;
+  }
+}
+
+.categories {
+  &__btn {
+    text-transform: capitalize;
+    color: $clr-gold;
+
+    &--selected,
+    &:hover {
+      color: $clr-white;
+      font-weight: 700;
+      transition: all 0.3s;
+    }
+  }
+}
+
+.menuItem {
+  &__title {
+    text-transform: capitalize;
+    margin-left: 1rem;
+  }
+
+  &__price {
+    color: $clr-gold;
+    text-align: end;
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+
+  &__description {
+    font-size: 1.5rem;
+    padding: 0 1rem;
+  }
+}

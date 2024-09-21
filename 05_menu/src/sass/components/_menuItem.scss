@@ -1,0 +1,43 @@
+.menu__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 7rem;
+  gap: 5rem;
+}
+
+.menuItem {
+  list-style: none;
+
+  &__container {
+    display: grid;
+    grid-template-columns: 2fr 3.5fr;
+    gap: 0.5rem;
+  }
+
+  &__image {
+    height: 12rem;
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 1/3;
+
+    border: 2px solid $clr-gold;
+    border-radius: 2px;
+  }
+
+  &__title {
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+    border-bottom: 1px solid $clr-gold;
+  }
+
+  &__price {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+
+  &__description {
+    grid-column: 2/4;
+    grid-row: 2/3;
+  }
+}

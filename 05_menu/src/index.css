@@ -1,0 +1,108 @@
+/* primary/main color */
+/* lighter shades of primary color */
+/* darkest grey - used for headings */
+/* grey used for paragraphs */
+/* Shadows */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; }
+
+body {
+  box-sizing: border-box; }
+
+.btn {
+  border: none;
+  padding: 1rem;
+  border-radius: 0.5rem; }
+
+.header__title {
+  text-align: center;
+  font-size: 3rem; }
+
+.categories__btn {
+  text-transform: capitalize;
+  color: #c59d5f; }
+  .categories__btn--selected, .categories__btn:hover {
+    color: #fff;
+    font-weight: 700;
+    transition: all 0.3s; }
+
+.menuItem__title {
+  text-transform: capitalize;
+  margin-left: 1rem; }
+
+.menuItem__price {
+  color: #c59d5f;
+  text-align: end;
+  font-weight: 700;
+  font-size: 1.2rem; }
+
+.menuItem__description {
+  font-size: 1.5rem;
+  padding: 0 1rem; }
+
+.categories__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 2rem; }
+
+.categories__ctg {
+  list-style: none;
+  display: inline-block;
+  margin: 0 2rem; }
+
+.categories__btn {
+  background-color: #fff;
+  transition: all 0.3s; }
+  .categories__btn--selected, .categories__btn:hover {
+    background-color: #c59d5f; }
+
+.menu__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 7rem;
+  gap: 5rem; }
+
+.menuItem {
+  list-style: none; }
+  .menuItem__container {
+    display: grid;
+    grid-template-columns: 2fr 3.5fr;
+    gap: 0.5rem; }
+  .menuItem__image {
+    height: 12rem;
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 1/3;
+    border: 2px solid #c59d5f;
+    border-radius: 2px; }
+  .menuItem__title {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    border-bottom: 1px solid #c59d5f; }
+  .menuItem__price {
+    grid-column: 2/3;
+    grid-row: 1/2; }
+  .menuItem__description {
+    grid-column: 2/4;
+    grid-row: 2/3; }
+
+body {
+  background-color: white; }
+
+.header {
+  margin: 2rem auto; }
+
+.underline {
+  width: 25rem;
+  height: 0.25rem;
+  background-color: #c59d5f;
+  margin: 1rem auto; }

@@ -1,0 +1,14 @@
+body {
+  background-color: lighten($clr-gold, 50);
+}
+
+.header {
+  margin: 2rem auto;
+}
+
+.underline {
+  width: 25rem;
+  height: 0.25rem;
+  background-color: $clr-gold;
+  margin: 1rem auto;
+}
