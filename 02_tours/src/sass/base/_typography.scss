@@ -1,0 +1,40 @@
+.page {
+  &__header {
+    font-size: 5rem;
+  }
+
+  &__refresh__button {
+    font-size: 2.5rem;
+    font-weight: $weight-button-text;
+    color: $clr-green-dark;
+  }
+}
+
+.tour {
+  &__title {
+    font-size: 2rem;
+  }
+
+  &__text {
+    font-size: 1.5rem;
+  }
+
+  &__price {
+    font-size: 1.2rem;
+    font-weight: $weight-button-text;
+    text-align: center;
+
+    color: $clr-green-dark;
+  }
+
+  &__read-more:link,
+  &__read-more:visited {
+    text-decoration: none;
+    color: $clr-red-dark;
+  }
+
+  &__button {
+    color: $clr-white;
+    font-weight: $weight-button-text;
+  }
+}

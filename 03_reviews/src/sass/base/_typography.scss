@@ -1,0 +1,31 @@
+.page__title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.review {
+  &__name {
+    text-transform: capitalize;
+  }
+
+  &__job {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: $clr-grey-6;
+  }
+
+  &__text {
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
+}
+
+.btn {
+  color: $clr-primary-1;
+  font-weight: 700;
+
+  &__next,
+  &__previous {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,4 @@
+@mixin standard-box-config {
+  box-shadow: 0.5rem 0.5rem rgba($text-gray, 0.5);
+  border-radius: 0.5rem;
+}

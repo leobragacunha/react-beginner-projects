@@ -1,0 +1,9 @@
+.btn {
+  border: none;
+  background-color: $clr-white;
+  padding: 1rem;
+
+  &:hover {
+    background-color: $clr-primary-9;
+  }
+}
